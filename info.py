@@ -27,9 +27,9 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/c5a0d3150a9d11a83414d.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/c5a0d3150a9d11a83414d.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/howtoopenfmckink/4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/c5a0d3150a9d11a83414d.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6168162777').split()]
